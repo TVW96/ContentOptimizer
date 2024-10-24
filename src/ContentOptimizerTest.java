@@ -6,7 +6,7 @@ public class ContentOptimizerTest {
     @Test
     public void testNormalCases() {
         // Normal test cases
-        assertEquals("edizisreV", ContentOptimizer.reverseString("Versiside"));
+        assertEquals("edisisreV", ContentOptimizer.reverseString("Versiside"));
         assertEquals("!dlroW ,olleH", ContentOptimizer.reverseString("Hello, World!"));
         assertEquals("gnitset", ContentOptimizer.reverseString("testing"));
     }
