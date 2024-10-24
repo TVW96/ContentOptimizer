@@ -34,8 +34,8 @@ We could also say that base case is the top floor, but then we would need to cli
 ... 
 6. Step down to bottom floor `base case`.
 
-### You now know where the bottom floor is giving us our `base case` and a final count for stair steps.
+### You now know where the bottom floor is giving us our `base case` and a final count and data set for each stair steps in the `recursive case` or recursive call of each step.
 
 
-7. Account for all steps made with knowledge of base case. 
+7. Return each recursive call. Data is displayed in reverse order, last call to first call.
 
